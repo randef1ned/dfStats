@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 80
----
-
 # dfStats: Fast and elegant column and row operations for `data.frame` objects
 
 ## Overview
@@ -43,7 +37,8 @@ install.packages("dfStats")
 # Or install the development version from GitHub
 if (!"remotes" %in% as.data.frame(installed.packages())$Package)
   install.packages("remotes")
-devtools::install_github("YourUsername/dfStats")
+remotes::install_github("randef1ned/dfStats", upgrade = "always",
+                        build_manual = TRUE, build_vignettes = TRUE)
 ```
 
 ## Quick start

@@ -12,10 +12,6 @@
 #include <execution>
 #include <vector>
 
-#if WINDOWS
-// Rtools provided wrong version of TBB
-#include "../../src/tbb/include/tbb/tbb.h"
-#endif
 // headers in this file are loaded in RcppExports.cpp
 #include <Rcpp.h>
 
