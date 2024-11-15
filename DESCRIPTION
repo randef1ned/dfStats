@@ -1,0 +1,30 @@
+Package: dfStats
+Type: Package
+Title: Functions that Apply to Rows and Columns of `data.frame`
+Version: 0.0.0
+Date: 2024-11-15
+Author: Yinchun Su
+Maintainer: Yinchun Su <me@yinchun.su>
+Description: More about what it does (maybe more than one line).
+License: GPL (>= 2)
+URL: https://github.com/randef1ned/dfStats
+BugReports: https://github.com/randef1ned/dfStats/issues
+Imports: 
+    checkmate,
+    collapse,
+    Rcpp (>= 1.0.13-1),
+    tidyr
+LinkingTo: Rcpp
+SystemRequirements: C++17
+RoxygenNote: 7.3.2
+Encoding: UTF-8
+Depends: 
+    R (>= 4.1.0)
+LazyData: true
+Suggests: 
+    dplyr,
+    knitr,
+    matrixStats,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)

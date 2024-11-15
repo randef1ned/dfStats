@@ -1,0 +1,17 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+.gitignore
+.git
+.idea
+.vscode
+.codecov.yml
+.lintr
+^\.github$
+^extdata$
+^docs$
+^doc$
+^Meta$
+^CODE_OF_CONDUCT\.md$
+^vignettes/*\.md$
+_pkgdown.yml
